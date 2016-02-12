@@ -6,7 +6,7 @@ FDM and Model: Ryan Miller
 
 Thanks to Jabberwocky (Peter Brendt), Cain, Hooray, Philosopher, 5H1N0B1, Syd Adams, and others for their major contributions!
 
-David Waggoner (DrDavid/Skyboat) and Peter Brendt (Jabberwocky/Jwocky) are collaborating on the project.
+David Waggoner (DrDavid/Skyboat), Joshua Davidson (it0uchpods/411), and Peter Brendt (Jabberwocky/Jwocky) are collaborating on the project.
 
 Project Description:
 
@@ -22,7 +22,7 @@ Therefore, the MD-10 is included in the name of the project.
 
 Ryan Miller, the DC-10-30's creator and developer, gave the aircraft a significant workover for the release FG 2.12.0, with excellent results! The changes we include in this version are envisioned out of those fixes and improvements.
 
-As importantly, the DC-10-30 is equipped with the new Canvas-ready Navdisplay for the MFD, a major step forward in FlightGear's simulation sophistication and realism.
+As importantly, the MD-10 is equipped with the new Canvas-ready Navdisplay for the MFD, a major step forward in FlightGear's simulation sophistication and realism.
 
 Initially, the project planned to find "off-the-shelf" instruments for a glass cockpit that could be fitted into the DC-10's flightdeck arrangement, not only by installing them in a format that would take into account panel design such as "the sacred six" but would work with the model's YAsim format.  Miller's CRJ700 provided the PFD and EICAS, along with other components such as the CDU, radios, side panels and upper panel.
 
