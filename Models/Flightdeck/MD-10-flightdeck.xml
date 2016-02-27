@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!-- McDonnell Douglas MD-10 -->
-<!-- Flight deck model --><!-- Flightdeck revisions by David Waggoner, 21JAN14 -->
+<!-- Flight deck model --><!-- Flightdeck revisions by David Waggoner, Joshua Davidson -->
 
 <!-- Many, many thanks to Ryan Miller for the creation and development of the outstanding DC -10-30 and its variants! -->
 <!-- Full credit is most gratefully acknowledged to the various developers of the instruments used to create this flightdeck revision -->
@@ -37,25 +37,10 @@
 <max-m>2000</max-m>
 </animation>
 
-<!-- PFD Primary Flight Display, pilot side -->
+<!-- PFD Primary Flight Display Pilot-->
 
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/pfd.xml</path>
-<overlay>
-<params>
-<attitude-indicator-spin>instrumentation/attitude-indicator[0]/spin</attitude-indicator-spin>
-<indicated-pitch-deg>instrumentation/attitude-indicator[0]/indicated-pitch-deg</indicated-pitch-deg>
-<indicated-roll-deg>instrumentation/attitude-indicator[0]/indicated-roll-deg</indicated-roll-deg>
-<indicated-altitude-ft>instrumentation/altimeter[0]/indicated-altitude-ft</indicated-altitude-ft>
-<indicated-speed-kt>instrumentation/airspeed-indicator[0]/indicated-speed-kt</indicated-speed-kt>
-<indicated-mach>instrumentation/airspeed-indicator[0]/indicated-mach</indicated-mach>
-<indicated-heading-deg>instrumentation/heading-indicator[0]/indicated-heading-deg</indicated-heading-deg>
-<indicated-vertical-speed-fpm>instrumentation/vertical-speed-indicator[0]/indicated-speed-fpm</indicated-vertical-speed-fpm>
-<radar-altitude-ft>instrumentation/radar-altimeter[0]/radar-altitude-ft</radar-altitude-ft>
-<altimeter-setting-inhg>instrumentation/altimeter[0]/setting-inhg</altimeter-setting-inhg>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/pfd-left-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
 <offsets>
 <x-m>-3.053</x-m>
 <y-m>-0.5865</y-m>
@@ -64,68 +49,38 @@
 </offsets>
 </model>
 
-<!-- MFD-CRJ Multifunction Flight Display -->
-<!-- commented out for test, not missing -->
-<!-- model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD-CRJ/mfd.xml</path>
-<overlay>
-<params>
-<page>instrumentation/mfd[0]/page</page>
-<tcas>instrumentation/mfd[0]/tcas</tcas>
-<wx>instrumentation/mfd[0]/wx</wx>
-<indicated-heading-deg>instrumentation/heading-indicator[0]/indicated-heading-deg</indicated-heading-deg>
-<true-airspeed-kt>instrumentation/airspeed-indicator[0]/true-speed-kt</true-airspeed-kt>
-<radar-range>instrumentation/radar[0]/range</radar-range>
-<radar-path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD-CRJ/radar0.xml</radar-path>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/mfd-right-lightmap.png</lightmap-texture-path>
-</params>
-</overlay -->
-<!-- <offsets>
-<x-m>-3.051</x-m>
-<y-m>-0.4135</y-m>
+<!-- PFD Primary Flight Display Copilot-->
+
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
+<offsets>
+<x-m>-3.053</x-m>
+<y-m>0.5865</y-m>
 <z-m>0.917</z-m>
 <pitch-deg>-10</pitch-deg>
-</offsets> -->
-<!-- /model -->
+</offsets>
+</model>
 
 <!-- Center MFD-CRJ Canvas NavDisplay, pilot side -->
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/navscreen.xml</path>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
 <offsets>
-<x-m>-3.051</x-m>
-<y-m>-0.4090</y-m> 	<!-- y-m>-0.4135</y-m original -->
-<z-m>0.9185</z-m>	<!-- z-m>0.937</z-m original -->
+<x-m>-3.053</x-m>
+<y-m>-0.3290</y-m>
+<z-m>0.917</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
-<overlay>			<!-- new block to scale it a bit bigger -->
-<animation n="100">
-<type>scale</type>
-<property>constants/zero</property>
-<x-offset>1.0</x-offset>
-<y-offset>1.0</y-offset>
-<z-offset>1.15</z-offset>
-</animation>
-</overlay>
 </model>
 
 <!-- Center MFD-CRJ Canvas NavDisplay, copilot side -->
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/center-mfd.xml</path>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
 <offsets>
-<x-m>-3.051</x-m>
-<y-m>0.4090</y-m>
-<z-m>0.9185</z-m>
+<x-m>-3.053</x-m>
+<y-m>0.3290</y-m>
+<z-m>0.917</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
-<overlay>			<!-- new block to scale it a bit bigger -->
-<animation n="100">
-<type>scale</type>
-<property>constants/zero</property>
-<x-offset>1.0</x-offset>
-<y-offset>1.0</y-offset>
-<z-offset>1.15</z-offset>
-</animation>
-</overlay>
 </model>
 
 <!-- EICAS -->
@@ -159,30 +114,6 @@
 <x-m>-3.053</x-m>
 <y-m>0.1865</y-m>
 <z-m>0.917</z-m>
-<pitch-deg>-10</pitch-deg>
-</offsets>
-</model>
-
-<!-- EFIS -->
-
-<model>	<!-- was from 777 -->
-<name>CTL1</name>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EFIS/efis-ctl1.xml</path>
-<offsets>
-<x-m>-3.029</x-m>
-<y-m>-0.4125</y-m>	<!-- y-m>-0.4125</y-m -->
-<z-m>0.755</z-m>	<!-- z-m>0.779</z-m -->
-<pitch-deg>-10</pitch-deg>
-</offsets>
-</model>
-
-<model>
-<name>CTL2</name> <!-- was from 777 -->
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EFIS/efis-ctl2.xml</path>
-<offsets>
-<x-m>-3.029</x-m>
-<y-m>0.4125</y-m>
-<z-m>0.755</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
@@ -304,86 +235,6 @@
 <x-m>-3.040</x-m>
 <y-m>-0.721</y-m>
 <z-m>0.871</z-m>
-<pitch-deg>-10</pitch-deg>
-</offsets>
-</model>
-
-<!-- M877 Digital Chronometer -->
-
-<model>
-<path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
-
-<action>
-<name>adjust left fine</name>
-<button>0</button>
-<x>-203</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>-60</step>
-<min>0</min>
-<max>43200</max>
-<wrap>true</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust left coarse</name>
-<button>1</button>
-<x>-203</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>-900</step>
-<min>0</min>
-<max>43200</max>
-<wrap>1</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust right fine</name>
-<button>0</button>
-<x>-183</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>60</step>
-<min>0</min>
-<max>43200</max>
-<wrap>true</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust right coarse</name>
-<button>1</button>
-<x>-183</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>900</step>
-<min>0</min>
-<max>43200</max>
-<wrap>1</wrap>
-</binding>
-</action>
-<offsets>
-<x-m>-3.000</x-m>
-<y-m>-0.704</y-m>
-<z-m>1.120</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
@@ -610,33 +461,6 @@
 </offsets>
 </model>
 
-<!-- PFD Primary Flight Display -->
-
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/pfd.xml</path>
-<overlay>
-<params>
-<attitude-indicator-spin>instrumentation/attitude-indicator[1]/spin</attitude-indicator-spin>
-<indicated-pitch-deg>instrumentation/attitude-indicator[1]/indicated-pitch-deg</indicated-pitch-deg>
-<indicated-roll-deg>instrumentation/attitude-indicator[1]/indicated-roll-deg</indicated-roll-deg>
-<indicated-altitude-ft>instrumentation/altimeter[1]/indicated-altitude-ft</indicated-altitude-ft>
-<indicated-speed-kt>instrumentation/airspeed-indicator[1]/indicated-speed-kt</indicated-speed-kt>
-<indicated-mach>instrumentation/airspeed-indicator[1]/indicated-mach</indicated-mach>
-<indicated-heading-deg>instrumentation/heading-indicator[1]/indicated-heading-deg</indicated-heading-deg>
-<indicated-vertical-speed-fpm>instrumentation/vertical-speed-indicator[1]/indicated-speed-fpm</indicated-vertical-speed-fpm>
-<radar-altitude-ft>instrumentation/radar-altimeter[1]/radar-altitude-ft</radar-altitude-ft>
-<altimeter-setting-inhg>instrumentation/altimeter[1]/setting-inhg</altimeter-setting-inhg>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/pfd-right-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-3.053</x-m>
-<y-m>0.5865</y-m>
-<z-m>0.917</z-m>
-<pitch-deg>-10</pitch-deg>
-</offsets>
-</model>
-
 <!-- Air Speed Indicator with Mach Reading -->
 
 <model>
@@ -662,86 +486,6 @@
 <x-m>-3.040</x-m>
 <y-m>0.721</y-m>
 <z-m>0.871</z-m>
-<pitch-deg>-10</pitch-deg>
-</offsets>
-</model>
-
-<!-- M877 Digital Chronometer -->
-
-<model>
-<path>Aircraft/Instruments-3d/clock/M877/m877.xml</path>
-
-<action>
-<name>adjust left fine</name>
-<button>0</button>
-<x>-203</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>-60</step>
-<min>0</min>
-<max>43200</max>
-<wrap>true</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust left coarse</name>
-<button>1</button>
-<x>-203</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>-900</step>
-<min>0</min>
-<max>43200</max>
-<wrap>1</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust right fine</name>
-<button>0</button>
-<x>-183</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>60</step>
-<min>0</min>
-<max>43200</max>
-<wrap>true</wrap>
-</binding>
-</action>
-
-<action>
-<name>adjust right coarse</name>
-<button>1</button>
-<x>-183</x>
-<y>258</y>
-<w>20</w>
-<h>32</h>
-<binding>
-<command>property-adjust</command>
-<property>/instrumentation/clock/offset-sec</property>
-<step>900</step>
-<min>0</min>
-<max>43200</max>
-<wrap>1</wrap>
-</binding>
-</action>
-<offsets>
-<x-m>-3.061</x-m>
-<y-m>0.810</y-m>
-<z-m>0.962</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
