@@ -63,9 +63,9 @@
 <model>
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
 <offsets>
-<x-m>-3.053</x-m>
-<y-m>-0.5865</y-m>
-<z-m>0.917</z-m>
+<x-m>-3.05</x-m>
+<y-m>-0.6265</y-m>
+<z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
@@ -75,31 +75,31 @@
 <model>
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
 <offsets>
-<x-m>-3.053</x-m>
-<y-m>0.5865</y-m>
-<z-m>0.917</z-m>
+<x-m>-3.05</x-m>
+<y-m>0.6265</y-m>
+<z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
 
-<!-- Center MFD-CRJ Canvas NavDisplay, pilot side -->
+<!-- Canvas NavDisplay, pilot side -->
 <model>
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
 <offsets>
-<x-m>-3.053</x-m>
-<y-m>-0.3290</y-m>
-<z-m>0.917</z-m>
+<x-m>-3.05</x-m>
+<y-m>-0.3660</y-m>
+<z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
 
-<!-- Center MFD-CRJ Canvas NavDisplay, copilot side -->
+<!-- Canvas NavDisplay, copilot side -->
 <model>
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
 <offsets>
-<x-m>-3.053</x-m>
-<y-m>0.3290</y-m>
-<z-m>0.917</z-m>
+<x-m>-3.05</x-m>
+<y-m>0.3660</y-m>
+<z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
