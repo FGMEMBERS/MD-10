@@ -64,7 +64,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>-0.6265</y-m>
+<y-m>-0.6120</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -76,7 +76,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/PFD/PFD.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>0.6265</y-m>
+<y-m>0.6120</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -84,7 +84,7 @@
 
 <!-- Canvas NavDisplay, pilot side -->
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/ND/ND_L.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
 <y-m>-0.3660</y-m>
@@ -95,10 +95,32 @@
 
 <!-- Canvas NavDisplay, copilot side -->
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/MFD/MFD.xml</path>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/ND/ND_R.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
 <y-m>0.3660</y-m>
+<z-m>0.9</z-m>
+<pitch-deg>-10</pitch-deg>
+</offsets>
+</model>
+
+<!-- EAD 1 -->
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_1.xml</path>
+<offsets>
+<x-m>-3.05</x-m>
+<y-m>-0.12</y-m>
+<z-m>0.9</z-m>
+<pitch-deg>-10</pitch-deg>
+</offsets>
+</model>
+
+<!-- EAD 2 -->
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_2.xml</path>
+<offsets>
+<x-m>-3.05</x-m>
+<y-m>0.12</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -158,95 +180,6 @@
 </offsets>
 </model>
 
-<!-- Shared instruments -->
-
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/UpperPanel/uppanel.xml</path>
-<offsets>
-<x-m>-2.939</x-m>
-<y-m>0</y-m>
-<z-m>1.587</z-m>
-</offsets>
-</model>
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/SidePanel1/sidepanel.xml</path>
-<overlay>
-<params>
-<mfd-tcas>instrumentation/mfd[0]/tcas</mfd-tcas>
-<mfd-wx>instrumentation/mfd[0]/wx</mfd-wx>
-<mfd-page>instrumentation/mfd[0]/page</mfd-page>
-<radar-range>instrumentation/radar[0]/range</radar-range>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/sidepanel1-left-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-2.837</x-m>
-<y-m>0.0835</y-m>
-<z-m>1.663</z-m>
-<pitch-deg>67</pitch-deg>
-</offsets>
-</model>
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/SidePanel2/sidepanel.xml</path>
-<overlay>
-<params>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/sidepanel2-left-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-2.920</x-m>
-<y-m>0.950</y-m>
-<z-m>0.706</z-m>
-<pitch-deg>-87</pitch-deg>
-</offsets>
-</model>
-
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/SidePanel2/sidepanel.xml</path>
-<overlay>
-<params>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/sidepanel2-left-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-2.837</x-m>
-<y-m>-0.0835</y-m>
-<z-m>1.663</z-m>
-<pitch-deg>67</pitch-deg>
-</offsets>
-</model>
-
-<!-- CDU Control Display Unit -->
-
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/CDU/cdu.xml</path>
-<overlay>
-<params>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/cdu-left-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-2.890</x-m>
-<y-m>-0.190</y-m>
-<z-m>0.692</z-m>
-<pitch-deg>-82.0</pitch-deg>
-</offsets>
-</model>
-<model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/CDU/cdu.xml</path>
-<overlay>
-<params>
-<lightmap-texture-path>Aircraft/MD-10/Models/Effects/Lightmaps/cdu-right-lightmap.png</lightmap-texture-path>
-</params>
-</overlay>
-<offsets>
-<x-m>-2.890</x-m>
-<y-m>0.190</y-m>
-<z-m>0.692</z-m>
-<pitch-deg>-82.0</pitch-deg>
-</offsets>
-</model>
-
 <!-- Panel lights -->
 <model>
 <name>Left panel light</name>
@@ -293,54 +226,6 @@
 <pitch-deg>-103.612</pitch-deg>
 </offsets>
 </model>
-
-<!-- Elevator trim -->
-<animation>
-<type>pick</type>
-<object-name>ElevatorTrim</object-name>
-<action>
-<button>0</button>
-<button>3</button>
-<repeatable type="bool">true</repeatable>
-<binding>
-<command>property-adjust</command>
-<property>controls/flight/elevator-trim</property>
-<step>0.01</step>
-<max>1</max>
-</binding>
-</action>
-<action>
-<button>1</button>
-<button>4</button>
-<repeatable type="bool">true</repeatable>
-<binding>
-<command>property-adjust</command>
-<property>controls/flight/elevator-trim</property>
-<step>-0.01</step>
-<min>0</min>
-</binding>
-</action>
-</animation>
-<animation>
-<type>rotate</type>
-<object-name>ElevatorTrim</object-name>
-<property>controls/flight/elevator-trim</property>
-<interpolation>
-<entry><ind>-1</ind><dep>56</dep></entry>
-<entry><ind>0</ind><dep>12.5</dep></entry>
-<entry><ind>1</ind><dep>3</dep></entry>
-</interpolation>
-<axis>
-<x>0</x>
-<y>1</y>
-<z>0</z>
-</axis>
-<center>
-<x-m>-2.548</x-m>
-<y-m>0</y-m>
-<z-m>0.522</z-m>
-</center>
-</animation>
 
 <!-- Speedbrake/spoiler lever -->
 <animation>

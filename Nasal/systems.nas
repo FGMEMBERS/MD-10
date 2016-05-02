@@ -6,6 +6,10 @@ var is_tanker = getprop("sim/aircraft") == "KC-10A";
 
 # NOTE: This file contains a loop for running all update functions, so it should be loaded last
 
+  setlistener("controls/autoflight/heading-select", func {
+  	setprop("autopilot/settings/heading-bug-deg", getprop("controls/autoflight/heading-select"));
+  });
+
 ## Properties to save on exit
 var save_properties =
 [

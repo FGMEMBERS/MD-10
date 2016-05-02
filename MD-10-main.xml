@@ -770,9 +770,6 @@
 	</input>
 
 	<nasal>
-		<interactive_cdu>
-			<file>Aircraft/MD-10/Nasal/cdu.nas</file>
-		</interactive_cdu>
 		<MD10>
 			<file>Aircraft/MD-10/Nasal/electrical.nas</file>
 			<file>Aircraft/MD-10/Nasal/engines.nas</file>
@@ -781,21 +778,11 @@
 			<file>Aircraft/MD-10/Nasal/instrumentation.nas</file>
 			<file>Aircraft/MD-10/Nasal/multiplayer.nas</file>
 			<file>Aircraft/MD-10/Nasal/systems.nas</file>
-			<file>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/NDNew.nas</file>
-			<!-- file>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/ND.nas</file -->
-			<!-- file>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/fctl.nas</file -->
-			<!-- file>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/eng.nas</file -->
-			<!-- file>Aircraft/MD-10/Models/Flightdeck/Instruments/Center-mfd/mfd.nas</file -->
+			<file>Aircraft/MD-10/Models/Flightdeck/Instruments/ND/ND.nas</file>
 		</MD10>
 		<systems>
 			<file>Aircraft/MD-10/Models/Flightdeck/Instruments/KLN90B/kln90b.nas</file>
 		</systems>
-		<m877>
-			<file>Aircraft/Instruments-3d/clock/M877/M877.nas</file>
-		</m877>
-		<common>
-			<file>Aircraft/MD-10/Common/canvas_nd/navscreen.mfd</file>
-		</common>
     </nasal>
 
 </PropertyList>
