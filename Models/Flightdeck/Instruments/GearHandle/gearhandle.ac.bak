@@ -7,7 +7,7 @@ OBJECT world
 kids 25
 OBJECT poly
 name "Cube.015"
-loc 0.00218692 0.000513289 0.013787
+loc -27.5223 6.90559 0.013787
 crease 45.000000
 numvert 8
 -0.0141315 -0.0389886 0.016794
@@ -57,7 +57,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.016"
-loc 0.0110885 0.0283634 -0.0407606
+loc -27.5134 6.93344 -0.0407606
 crease 45.000000
 numvert 12
 -0.0012188 -0.00121975 0.0007185
@@ -146,7 +146,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.028"
-loc 0.0112869 -0.0110967 -9.21004e-005
+loc -27.5132 6.89398 -9.21004e-005
 texture "dashboard.png"
 crease 45.000000
 numvert 530
@@ -4511,7 +4511,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.034"
-loc 0.00358692 0.0699331 0.0013749
+loc -27.5209 6.97501 0.0013749
 crease 45.000000
 numvert 8
 0.00140572 0.0093174 -0.0088783
@@ -4520,8 +4520,8 @@ numvert 8
 -0.00479126 0.00811386 -0.0088783
 0.00479126 -0.00811386 -0.0088783
 0.00479126 -0.00811386 0.0088783
--0.00140572 -0.00931739 0.0088783
--0.00140572 -0.00931739 -0.0088783
+-0.00140572 -0.0093174 0.0088783
+-0.00140572 -0.0093174 -0.0088783
 numsurf 6
 SURF 0x30
 mat 1
@@ -4568,7 +4568,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.035"
-loc 0.00358692 0.0699331 -0.0175062
+loc -27.5209 6.97501 -0.0175062
 crease 45.000000
 numvert 8
 0.00140572 0.0093174 -0.0088783
@@ -4577,8 +4577,8 @@ numvert 8
 -0.00479126 0.00811386 -0.0088783
 0.00479126 -0.00811386 -0.0088783
 0.00479126 -0.00811386 0.0088783
--0.00140572 -0.00931739 0.0088783
--0.00140572 -0.00931739 -0.0088783
+-0.00140572 -0.0093174 0.0088783
+-0.00140572 -0.0093174 -0.0088783
 numsurf 6
 SURF 0x30
 mat 1
@@ -4625,7 +4625,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.036"
-loc 0.00358692 0.0699331 0.0204792
+loc -27.5209 6.97501 0.0204792
 crease 45.000000
 numvert 8
 0.00140572 0.0093174 -0.0088783
@@ -4634,8 +4634,8 @@ numvert 8
 -0.00479126 0.00811386 -0.0088783
 0.00479126 -0.00811386 -0.0088783
 0.00479126 -0.00811386 0.0088783
--0.00140572 -0.00931739 0.0088783
--0.00140572 -0.00931739 -0.0088783
+-0.00140572 -0.0093174 0.0088783
+-0.00140572 -0.0093174 -0.0088783
 numsurf 6
 SURF 0x30
 mat 1
@@ -4682,7 +4682,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.037"
-loc -0.000511976 0.089173 0.0013749
+loc -27.525 6.99425 0.0013749
 crease 45.000000
 numvert 8
 0.00140572 0.0093174 -0.0088783
@@ -4739,7 +4739,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cube.181"
-loc 0.0110885 0.0283634 -0.0228049
+loc -27.5134 6.93344 -0.0228049
 crease 45.000000
 numvert 12
 -0.0012188 -0.00121975 0.0007185
@@ -4828,7 +4828,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cylinder.013"
-loc 0.0180885 -0.0195768 0.0081324
+loc -27.5064 6.8855 0.0081324
 crease 45.000000
 numvert 16
 0.00617981 0.000891685 -0.0029523
@@ -4943,7 +4943,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cylinder.014"
-loc 0.0180885 -0.0195768 0.0081324
+loc -27.5064 6.8855 0.0081324
 crease 45.000000
 numvert 40
 -0.0122395 -0.00239372 -0.0060666
@@ -5250,7 +5250,7 @@ refs 4
 kids 0
 OBJECT poly
 name "Cylinder.055"
-loc 0.0126869 0.0502231 -0.0324368
+loc -27.5118 6.9553 -0.0324368
 texture "dashboard.png"
 crease 45.000000
 numvert 63
@@ -5772,7 +5772,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Cylinder.056"
-loc 0.0251876 -0.0110467 -0.0324368
+loc -27.4993 6.89403 -0.0324368
 texture "dashboard.png"
 crease 45.000000
 numvert 63
@@ -6294,7 +6294,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Cylinder.057"
-loc 0.0347873 -0.0563967 -0.0324368
+loc -27.4897 6.84868 -0.0324368
 texture "dashboard.png"
 crease 45.000000
 numvert 63
@@ -6816,7 +6816,7 @@ refs 3
 kids 0
 OBJECT poly
 name "Cylinder.058"
-loc 0.0347873 -0.0563967 0.0345988
+loc -27.4897 6.84868 0.0345988
 texture "dashboard.png"
 crease 45.000000
 numvert 63
@@ -7338,7 +7338,7 @@ refs 3
 kids 0
 OBJECT poly
 name "gearlever"
-loc 0.0850879 -0.0433166 0.0155733
+loc -27.4394 6.86176 0.0155733
 crease 45.000000
 numvert 50
 0.00314522 0.00637913 0.0079542
@@ -7717,7 +7717,7 @@ refs 4
 kids 0
 OBJECT poly
 name "gearlever.glass"
-loc 0.0836879 -0.0426467 0.0054702
+loc -27.4408 6.86243 0.0054702
 texture "dashboard.png"
 crease 45.000000
 numvert 176
@@ -9021,7 +9021,7 @@ refs 4
 kids 0
 OBJECT poly
 name "gearlever.glass.001"
-loc 0.0837871 -0.0427368 0.0077443
+loc -27.4407 6.86234 0.0077443
 crease 45.000000
 numvert 48
 -0.0025444 -0.00615788 -0.0183662
@@ -9468,7 +9468,7 @@ refs 3
 kids 0
 OBJECT poly
 name "lg.ctr.green"
-loc 0.00768772 0.0661833 0.0013637
+loc -27.5168 6.97126 0.0013637
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9487,7 +9487,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.ctr.red"
-loc 0.00768772 0.0736434 0.0014326
+loc -27.5168 6.97872 0.0014326
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9506,7 +9506,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.left.green"
-loc 0.00768772 0.0661833 0.0204792
+loc -27.5168 6.97126 0.0204792
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9525,7 +9525,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.left.red"
-loc 0.00768772 0.0736434 0.0204792
+loc -27.5168 6.97872 0.0204792
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9544,7 +9544,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.nose.green"
-loc 0.00348773 0.0864532 0.0013637
+loc -27.521 6.99153 0.0013637
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9563,7 +9563,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.nose.red"
-loc 0.00288692 0.0935132 0.0014326
+loc -27.5216 6.99859 0.0014326
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9582,7 +9582,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.right.green"
-loc 0.00768772 0.0661833 -0.0176679
+loc -27.5168 6.97126 -0.0176679
 texture "dashboard.png"
 crease 45.000000
 numvert 4
@@ -9601,7 +9601,7 @@ refs 4
 kids 0
 OBJECT poly
 name "lg.right.red"
-loc 0.00768772 0.0736434 -0.0169659
+loc -27.5168 6.97872 -0.0169659
 texture "dashboard.png"
 crease 45.000000
 numvert 4

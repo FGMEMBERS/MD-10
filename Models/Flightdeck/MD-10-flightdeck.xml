@@ -120,7 +120,7 @@
 
 <!-- EAD 1 -->
 <model>
-<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_1.xml</path>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_1_GE.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
 <y-m>-0.16</y-m>
@@ -137,6 +137,17 @@
 <y-m>0.16</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
+</offsets>
+</model>
+
+<!-- GearLever -->
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/GearHandle/gearhandle.xml</path>
+<offsets>
+<x-m>-3.065</x-m>
+<y-m>0</y-m>
+<z-m>0.9</z-m>
+<pitch-deg>2</pitch-deg>
 </offsets>
 </model>
 

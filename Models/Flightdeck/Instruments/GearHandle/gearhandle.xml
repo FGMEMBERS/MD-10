@@ -11,10 +11,10 @@
 		<object-name>gearlever</object-name>
 		<object-name>gearlever.glass</object-name>
 		<object-name>gearlever.glass.001</object-name>
-		<property>controls/gear/gearlever/position-norm</property>
+		<property>controls/gear/gear-down</property>
 		<interpolation>
-			<entry><ind>0.1</ind><dep>-60</dep></entry>
-			<entry><ind>0.9</ind><dep>0</dep></entry>
+			<entry><ind>0</ind><dep>-60</dep></entry>
+			<entry><ind>1</ind><dep>0</dep></entry>
 		</interpolation>
 		<axis>
 			<x>0</x>
@@ -22,13 +22,13 @@
 			<z>0</z>
 		</axis>
 		<center>
-			<x-m>-27.5502</x-m>
-			<y-m>-0.2913</y-m>
-			<z-m>6.9061</z-m>
+			<x-m>-0.02</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
 		</center>
 	</animation>
 	
-		<animation>
+		<!--animation>
 		<type>translate</type>
 		<object-name>gearlever</object-name>
 		<object-name>gearlever.glass</object-name>
@@ -48,13 +48,13 @@
 	    <y2-m>-0.0235</y2-m>
 	    <z2-m>6.8876</z2-m>
 	</axis>
-	</animation>
+	</animation-->
 	
-			<effect>
-		<inherits-from>Aircraft/MD-10-10/Models/Effects/engine</inherits-from>
+			<!--effect>
+		<inherits-from>Aircraft/MD-10/Models/Effects/engine</inherits-from>
     <object-name>gearlever.glass</object-name>
     <object-name>cockpit_chrome</object-name>
-	</effect>
+	</effect-->
 
 	
 	<animation>
@@ -84,7 +84,7 @@
         <object-name>lg.ctr.green</object-name>
         <object-name>lg.ctr.red</object-name>
 		<condition>
-				<property>systems/electrical/outputs/avionics</property>
+				<property>systems/electrical/outputs/efis</property>
 		</condition>
 	</animation>
 	
