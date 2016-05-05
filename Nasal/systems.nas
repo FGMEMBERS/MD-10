@@ -27,7 +27,7 @@ var systems =
 	loopid: -1,
 	init: func
 	{
-		print("MD-10 aircraft systems ... initialized");
+		print("Systems ... FINE!");
 		systems.loopid += 1;
 		settimer(func systems.update(systems.loopid), 0);
 	},

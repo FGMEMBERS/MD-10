@@ -254,12 +254,12 @@ Syd Adams
     <animation>
         <type>textranslate</type>
         <object-name>VSI.positive</object-name>
-        <property>instrumentation/inst-vertical-speed-indicator/indicated-speed-fps</property>
+        <property>instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
         <interpolation>
             <entry><ind>0</ind><dep>0</dep></entry>
-            <entry><ind>16.666</ind><dep>0.28</dep></entry>
-            <entry><ind>33.333</ind><dep>0.385</dep></entry>
-            <entry><ind>66.666</ind><dep>0.49</dep></entry>
+            <entry><ind>1000.666</ind><dep>0.28</dep></entry>
+            <entry><ind>2000.333</ind><dep>0.385</dep></entry>
+            <entry><ind>4000.666</ind><dep>0.49</dep></entry>
         </interpolation>
         <axis>
             <x>0</x>
@@ -270,12 +270,12 @@ Syd Adams
         <animation>
         <type>textranslate</type>
         <object-name>VSI.negative</object-name>
-        <property>instrumentation/inst-vertical-speed-indicator/indicated-speed-fps</property>
+        <property>instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
         <interpolation>
             <entry><ind>0</ind><dep>0</dep></entry>
-            <entry><ind>-16.666</ind><dep>0.28</dep></entry>
-            <entry><ind>-33.333</ind><dep>0.385</dep></entry>
-            <entry><ind>-66.666</ind><dep>0.49</dep></entry>
+            <entry><ind>-1000.666</ind><dep>0.28</dep></entry>
+            <entry><ind>-2000.333</ind><dep>0.385</dep></entry>
+            <entry><ind>-4000.666</ind><dep>0.49</dep></entry>
         </interpolation>
         <axis>
             <x>0</x>

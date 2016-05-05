@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!-- McDonnell Douglas MD-10 -->
-<!-- Flight deck model --><!-- Flightdeck revisions by David Waggoner, Joshua Davidson -->
-
-<!-- Many, many thanks to Ryan Miller for the creation and development of the outstanding DC -10-30 and its variants! -->
-<!-- Full credit is most gratefully acknowledged to the various developers of the instruments used to create this flightdeck revision -->
-<!-- PFD and MFD (ND) are from Boeing 717-200; installed by Joshua Davidson -->
-<!-- KLN-90B GPS: adapted and installed from Beechcraft 1900D; by David Waggoner, 21Jan14 -->
-
 <PropertyList>
 
 <path>MD-10-flightdeck.ac</path>
@@ -58,6 +50,28 @@
 	</offsets>
 </model>
 
+<model>
+	<name>Yoke L</name>
+	<path>Aircraft/MD-10/Models/Flightdeck/Yoke/yokes.xml</path>
+	<offsets>
+	<x-m>-3.6</x-m>
+	<y-m>-0.135</y-m>
+	<z-m>0.35</z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
+<model>
+	<name>Yoke R</name>
+	<path>Aircraft/MD-10/Models/Flightdeck/Yoke/yokes.xml</path>
+	<offsets>
+	<x-m>-3.6</x-m>
+	<y-m>1.045</y-m>
+	<z-m>0.35</z-m>
+	<pitch-deg>0</pitch-deg>
+	</offsets>
+</model>
+
 <!-- PFD Primary Flight Display Pilot-->
 
 <model>
@@ -87,7 +101,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/ND/ND_L.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>-0.3660</y-m>
+<y-m>-0.3860</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -98,7 +112,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/ND/ND_R.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>0.3660</y-m>
+<y-m>0.3860</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -109,7 +123,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_1.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>-0.12</y-m>
+<y-m>-0.16</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
@@ -120,7 +134,7 @@
 <path>Aircraft/MD-10/Models/Flightdeck/Instruments/EAD/EAD_2.xml</path>
 <offsets>
 <x-m>-3.05</x-m>
-<y-m>0.12</y-m>
+<y-m>0.16</y-m>
 <z-m>0.9</z-m>
 <pitch-deg>-10</pitch-deg>
 </offsets>
