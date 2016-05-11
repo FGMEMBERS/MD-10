@@ -146,8 +146,30 @@
 <offsets>
 <x-m>-3.065</x-m>
 <y-m>0</y-m>
-<z-m>0.9</z-m>
+<z-m>0.905</z-m>
 <pitch-deg>2</pitch-deg>
+</offsets>
+</model>
+
+<!-- Standby -->
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/Standby/standby.xml</path>
+<offsets>
+<x-m>-3.02</x-m>
+<y-m>0.05</y-m>
+<z-m>0.755</z-m>
+<pitch-deg>-10</pitch-deg>
+</offsets>
+</model>
+
+<!-- Standby2-->
+<model>
+<path>Aircraft/MD-10/Models/Flightdeck/Instruments/stby-alt/stby-alt.xml</path>
+<offsets>
+<x-m>-3.02</x-m>
+<y-m>-0.05</y-m>
+<z-m>0.755</z-m>
+<pitch-deg>-10</pitch-deg>
 </offsets>
 </model>
 
