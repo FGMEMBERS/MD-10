@@ -518,7 +518,7 @@ setlistener("instrumentation/tcas/outputs/traffic-alert", func(traffic_alert){
 
 ## FLAPS/SLATS
 ##############
-# Custom Flap/Slat System by Joshua Davidson (it0uchpods/411)
+# Custom Flap/Slat System by Joshua Davidson (Octal450)
 # Dial a Flap will be added as soon as I can find enough infos about it
 
 setprop("/controls/flight/flap-lever", 0);

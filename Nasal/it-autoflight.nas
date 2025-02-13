@@ -1,5 +1,5 @@
 # IT AUTOFLIGHT System Controller
-# Joshua Davidson (it0uchpods)
+# Joshua Davidson (Octal450)
 # V3.0.3 Stable
 # This program is 100% GPL!
 

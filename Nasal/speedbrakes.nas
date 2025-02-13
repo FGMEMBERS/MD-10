@@ -1,4 +1,4 @@
-# Speedbrake controller - tikibar, and it0uchpods
+# Speedbrake controller - tikibar, and Octal450
 
 
 

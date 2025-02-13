@@ -1,5 +1,5 @@
 # This file converts the IT-AUTOFLIGHT Mode numbers, and converts them into text strings for the McDonnell Douglas Style PFD.
-# Joshua Davidson (it0uchpods/411)
+# Joshua Davidson (Octal450)
 
 # Master Lateral
 setlistener("/it-autoflight/mode/lat", func {

@@ -12,7 +12,6 @@
 		<object-name>EGT_1</object-name>
 		<object-name>N2_1</object-name>
 		<object-name>n1.frame.1</object-name>
-		<object-name>throttle.position.1</object-name>
 		<condition>
 <greater-than>
     <property>engines/engine[0]/n2rpm</property>
@@ -48,26 +47,6 @@
 <interpolation>
 <entry><ind>1</ind><dep>0</dep></entry>
 <entry><ind>110</ind><dep>180</dep></entry>
-</interpolation>
-    <center>
-      <x-m></x-m>
-      <y-m>-0.0493</y-m>
-      <z-m>0.0642</z-m>
-    </center>
-    <axis>
-      <x>-1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis>
-  </animation>
-  
-  	  <animation>
-    <type>rotate</type>
-		<object-name>throttle.position.1</object-name>
-        <property>controls/engines/engine/throttle-act</property>
-<interpolation>
-<entry><ind>0</ind><dep>38</dep></entry>
-<entry><ind>1</ind><dep>177</dep></entry>
 </interpolation>
     <center>
       <x-m></x-m>
@@ -130,7 +109,6 @@
 		<object-name>EGT_2</object-name>
 		<object-name>N2_2</object-name>
 		<object-name>n1.frame.2</object-name>
-		<object-name>throttle.position.2</object-name>
 		<condition>
 <greater-than>
     <property>engines/engine[1]/n2rpm</property>
@@ -166,26 +144,6 @@
 <interpolation>
 <entry><ind>1</ind><dep>0</dep></entry>
 <entry><ind>110</ind><dep>180</dep></entry>
-</interpolation>
-    <center>
-      <x-m></x-m>
-      <y-m>0.0019</y-m>
-      <z-m>0.0642</z-m>
-    </center>
-    <axis>
-      <x>-1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis>
-  </animation>
-  
-    	  <animation>
-    <type>rotate</type>
-		<object-name>throttle.position.2</object-name>
-        <property>controls/engines/engine[1]/throttle-act</property>
-<interpolation>
-<entry><ind>0</ind><dep>38</dep></entry>
-<entry><ind>1</ind><dep>177</dep></entry>
 </interpolation>
     <center>
       <x-m></x-m>
@@ -248,7 +206,6 @@
 		<object-name>EGT_3</object-name>
 		<object-name>N2_3</object-name>
 		<object-name>n1.frame.3</object-name>
-		<object-name>throttle.position.3</object-name>
 		<condition>
 <greater-than>
     <property>engines/engine[2]/n2rpm</property>
@@ -284,26 +241,6 @@
 <interpolation>
 <entry><ind>1</ind><dep>0</dep></entry>
 <entry><ind>110</ind><dep>180</dep></entry>
-</interpolation>
-    <center>
-      <x-m>0</x-m>
-      <y-m>0.0539</y-m>
-      <z-m>0.0642</z-m>
-    </center>
-    <axis>
-      <x>-1 </x> 
-      <y> 0 </y> 
-      <z> 0 </z> 
-    </axis>
-  </animation>
-  
-      	  <animation>
-    <type>rotate</type>
-		<object-name>throttle.position.3</object-name>
-        <property>controls/engines/engine[2]/throttle-act</property>
-<interpolation>
-<entry><ind>0</ind><dep>38</dep></entry>
-<entry><ind>1</ind><dep>177</dep></entry>
 </interpolation>
     <center>
       <x-m>0</x-m>

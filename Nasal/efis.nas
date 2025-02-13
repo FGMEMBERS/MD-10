@@ -1,4 +1,4 @@
-# MD-10ACF EFIS controller by Joshua Davidson (it0uchpods/411).
+# MD-10ACF EFIS controller by Joshua Davidson (Octal450).
 
 setlistener("/sim/signals/fdm-initialized", func {
 	nd_init();

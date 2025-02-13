@@ -23,25 +23,6 @@
 			<z2-m>3.85</z2-m>
 		</axis>
 	</animation>
-	<animation>
-		<name>Left inner aileron</name>
-		<type>rotate</type>
-		<object-name>AileronL1</object-name>
-        <property>surface-positions/flap-pos-norm</property>
-		<interpolation>
-			<entry><ind>0</ind><dep>0</dep></entry>
-			<entry><ind>0.31</ind><dep>12.5</dep></entry>
-			<entry><ind>0.35</ind><dep>0</dep></entry>
-		</interpolation>
-		<axis>
-			<x1-m>4.965</x1-m>
-			<y1-m>-9.203</y1-m>
-			<z1-m>4.111</z1-m>
-			<x2-m>4.723</x2-m>
-			<y2-m>-7.269</y2-m>
-			<z2-m>3.85</z2-m>
-		</axis>
-	</animation>
 	
 	<animation>
 		<name>Left outer aileron</name>
@@ -58,25 +39,6 @@
 			<z2-m>4.856</z2-m>
 		</axis>
 	</animation>
-	<animation>
-		<name>Left outer aileron</name>
-        <type>rotate</type>
-		<object-name>AileronL2</object-name>
-        <property>surface-positions/flap-pos-norm</property>
-		<interpolation>
-			<entry><ind>0</ind><dep>0</dep></entry>
-			<entry><ind>0.31</ind><dep>12.5</dep></entry>
-			<entry><ind>0.35</ind><dep>0</dep></entry>
-		</interpolation>
-		<axis>
-			<x1-m>12.131</x1-m>
-			<y1-m>-22.327</y1-m>
-			<z1-m>5.223</z1-m>
-			<x2-m>9.529</x2-m>
-			<y2-m>-17.776</y2-m>
-			<z2-m>4.856</z2-m>
-		</axis>
-    </animation>
 
 	<animation>
 		<name>Right inner aileron</name>
@@ -84,25 +46,6 @@
 		<object-name>AileronR1</object-name>
 		<property>surface-positions/right-aileron-inner-pos-norm</property>
 		<factor>10</factor>
-		<axis>
-			<x1-m>4.723</x1-m>
-			<y1-m>7.269</y1-m>
-			<z1-m>3.85</z1-m>
-			<x2-m>4.965</x2-m>
-			<y2-m>9.203</y2-m>
-			<z2-m>4.111</z2-m>
-		</axis>
-	</animation>
-	<animation>
-		<name>Right inner aileron</name>
-		<type>rotate</type>
-		<object-name>AileronR1</object-name>
-        <property>surface-positions/flap-pos-norm</property>
-		<interpolation>
-			<entry><ind>0</ind><dep>0</dep></entry>
-			<entry><ind>0.31</ind><dep>12.5</dep></entry>
-			<entry><ind>0.35</ind><dep>0</dep></entry>
-		</interpolation>
 		<axis>
 			<x1-m>4.723</x1-m>
 			<y1-m>7.269</y1-m>
@@ -128,25 +71,6 @@
 			<z2-m>5.223</z2-m>
 		</axis>
 	</animation>
-	<animation>
-		<name>Right outer aileron</name>
-        <type>rotate</type>
-		<object-name>AileronR2</object-name>
-        <property>surface-positions/flap-pos-norm</property>
-		<interpolation>
-			<entry><ind>0</ind><dep>0</dep></entry>
-			<entry><ind>0.31</ind><dep>12.5</dep></entry>
-			<entry><ind>0.35</ind><dep>0</dep></entry>
-		</interpolation>
-		<axis>
-			<x1-m>9.529</x1-m>
-			<y1-m>17.776</y1-m>
-			<z1-m>4.856</z1-m>
-			<x2-m>12.131</x2-m>
-			<y2-m>22.327</y2-m>
-			<z2-m>5.223</z2-m>
-		</axis>
-    </animation>
 	
 	
 	<!-- Flaps -->
